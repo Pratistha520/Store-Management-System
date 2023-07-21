@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Times New Roman', Times, serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.inline {
+    margin: auto;
+
+}
+
+.searchbar i {
+    position: absolute;
+    margin: 10px;
+    color: #927567;
+}
+
+.input-field {
+    text-align: center;
+    margin-bottom: 3px;
+    background-color: rgba(238, 233, 229, 1);
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 60px;
+    padding-left: 40px;
+    gap: 40px;
+    background-color: white;
+}
+
+.logo img {
+    max-width: 160px;
+
+}
+
+.navbar {
+    display: flex;
+    gap: 60px;
+}
+
+.navbar a {
+    color: 344654;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    color: #615047;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    transition: all .5s ease;
+}
+
+.navbar a:hover {
+    color: rgba(176, 132, 1, 1);
+}
+
+.nav-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-icon i {
+    margin-right: 20px;
+    color: #344654;
+    font-size: 24px;
+    font-weight: 700;
+    transition: all .42s ease;
+}
+
+.nav-icon i:hover {
+    color: rgba(176, 132, 1, 1);
+    transform: scale(1.1);
+}
+
+section {
+    padding-top: 10%;
+    padding-bottom: 0%;
+}
+
+/* Login - Signup page CSS starts here */
+
+@import url('https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap');
+
+.form_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(239, 234, 230);
+    background: linear-gradient(90deg, rgba(239, 234, 230, 1) 0%,
+            rgba(243, 239, 231, 1) 50%,
+            rgba(221, 216, 210, 1) 100%);
+    padding: 0 60px 0 60px;
+    width: 100%;
+    height: 71px;
+}
+
+.form_title p {
+    font-size: 26px;
+    font-weight: 700;
+    color: #344654;
+}
+
+.wrapper1{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 82vh;
+}
+
+.form_box {
+    width: 597px;
+    height: 334px;
+}
+
+.input_box input {
+    width: 100%;
+    font-size: 18px;
+    height: 50px;
+    border: 1px solid #DED1BD;
+    border-radius: 4px;
+    padding-left: 10px;
+    margin-bottom: 28px;
+}
+
+.form_box input::placeholder,
+label {
+    color: #8D8178;
+}
+
+.remember {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px 0 15px;
+    margin-bottom: 28px;
+}
+
+.remember label,
+.remember a {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.remember a,
+.login_register a {
+    text-decoration: underline;
+}
+
+.login_register a,
+p {
+    font-size: 400;
+    font-size: 20px;
+}
+
+.login_register {
+    text-align: center;
+    margin-top: 28px;
+}
+
+.login_register p {
+    color: #8D8178;
+}
+
+.login_btn {
+
+    width: 121px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #344654;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Login CSS Ends here */
+
+/* Signup CSS Starts here */
+.uname,
+.mail {
+    display: flex;
+    justify-content: space-between;
+    gap: 23px;
+}
+
+.address {
+    display: grid;
+    gap: 14px;
+    grid-template-columns: 30% 1fr;
+}
+
+.country_box,
+.address_box {
+    width: 100%;
+}
+
+/* Signup CSS ends here */
+/* Login - Signup page CSS ends here */
